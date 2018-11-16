@@ -13,8 +13,8 @@ from asposeDiagramcloud.api_client import ApiClient
 import asposestoragecloud
 
 grantType = "client_credentials"
-clientId = "84220e69-32e2-41c4-ba2f-662a0a01433e"
-clientSecret = "883dc8d6b8ecd879dae35cb363e9eb56"
+clientId = "xxxxxxxx"
+clientSecret = "xxxxxx"
 
 def GetAccessToken():
     client = ApiClient('https://api.aspose.cloud/')
