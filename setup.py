@@ -14,7 +14,7 @@
 import sys
 from setuptools import setup, find_packages
 
-NAME = "asposeDiagramcloud"
+NAME = "asposediagramcloud"
 VERSION = "18.10"
 # To install the library, run the following
 #
@@ -29,16 +29,17 @@ setup(
     name=NAME,
     version=VERSION,
     description="Aspose.Diagram.Cloud for Python",
-    author="Nick Liu",
-    author_email="nick.liu@aspose.com",
+    author="asposecloud",
+    author_email="aspose.cloud@aspose.com",
     url="https://github.com/aspose-Diagram-cloud/aspose-Diagram-cloud-python",
     keywords=["aspose", "digaram", "cloud"],
     install_requires=REQUIRES,
-    packages=['asposedigaramcloud', 'asposedigaramcloud.apis', 'asposedigaramcloud.models'],
+    packages=['asposediagramcloud', 'asposediagramcloud.apis', 'asposediagramcloud.models'],
     include_package_data=True,
     long_description="Aspose.Digaram Cloud SDK for Python allows you to use Aspose.Digaram APIs in your Python applications",
     classifiers=[
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
