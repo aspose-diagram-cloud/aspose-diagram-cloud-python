@@ -13,13 +13,13 @@ Python 2.7 and 3.5
 ### pip install
 
 ```sh
-pip install asposeDiagramcloud
+pip install asposediagramcloud
 ```
-(you may need to run `pip` with root permission: `sudo pip install asposeDiagramcloud`)
+(you may need to run `pip` with root permission: `sudo pip install asposediagramcloud`)
 
 Then import the package:
 ```python
-import asposeDiagramcloud 
+import asposediagramcloud 
 ```
 
 ### Setuptools
@@ -33,7 +33,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import asposeDiagramcloud
+import asposediagramcloud
 ```
 
 ## Getting Started
@@ -43,11 +43,11 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import asposeDiagramcloud
-from asposeDiagramcloud.rest import ApiException
+import asposediagramcloud
+from asposediagramcloud.rest import ApiException
 from pprint import pprint
 # create an instance of the API class
-api_instance = asposeDiagramcloud.DiagramFileApi()
+api_instance = asposediagramcloud.DiagramFileApi()
 name = 'name_example' # str | The document name.
 format = 'format_example' # str | The exported file format. (optional)
 folder = 'folder_example' # str | The document folder. (optional)
