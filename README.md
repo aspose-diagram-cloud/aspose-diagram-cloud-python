@@ -1,6 +1,6 @@
-# aspose-digaram-cloud-python
+# aspose-Diagram-cloud-python
 
-Aspose.Digaram Cloud SDK for Python allows you to use Aspose.Digaram APIs in your Python applications
+Aspose.Diagram Cloud SDK for Python allows you to use Aspose.Diagram APIs in your Python applications
 
 - Package version: 18.10
 - Build package: io.swagger.codegen.languages.PythonClientCodegen
