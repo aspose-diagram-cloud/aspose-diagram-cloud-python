@@ -16,6 +16,7 @@ from __future__ import absolute_import
 import sys
 import os
 import re
+import six
 
 # python 2 and python 3 compatibility library
 from six import iteritems
@@ -39,6 +40,57 @@ class DiagramFileApi(object):
             if not config.api_client:
                 config.api_client = ApiClient()
             self.api_client = config.api_client
+
+        self.__request_token()
+
+    def __request_token(self):
+        config = self.api_client.configuration
+        host = config.host
+        self.api_client.host = 'https://api.aspose.cloud/'
+        request_url = "oauth2/token"
+        form_params = [('grant_type', 'client_credentials'), ('client_id', config.api_key['app_sid']),
+                       ('client_secret', config.api_key['api_key'])]
+
+        header_params = {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+
+        data = self.api_client.call_api(request_url, 'POST',
+                                        {},
+                                        [],
+                                        header_params,
+                                        post_params=form_params,
+                                        response_type='object',
+                                        files={}, _return_http_data_only=True)
+        access_token = data['access_token'] if six.PY3 else data['access_token'].encode('utf8')
+        refresh_token = data['refresh_token'] if six.PY3 else data['refresh_token'].encode('utf8')
+        self.api_client.configuration.access_token = access_token
+        self.api_client.host = host
+        self.api_client.configuration.refresh_token = refresh_token
+        
+        self.api_client.set_default_header("Authorization", "Bearer " + access_token)
+
+    
+    # Refresh token method is going to be removed soon. Obsolete, do not use
+    def __refresh_token(self):
+        config = self.api_client.configuration
+        host = config.host
+        config.host = ''
+        request_url = "oauth2/token"
+        form_params = [('grant_type', 'refresh_token'), ('refresh_token', config.refresh_token)]
+
+        header_params = {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+
+        data = self.api_client.call_api(request_url, 'POST',
+                                        {},
+                                        [],
+                                        header_params,
+                                        post_params=form_params,
+                                        response_type='object',
+                                        files={}, _return_http_data_only=True)
+        access_token = data['access_token'] if six.PY3 else data['access_token'].encode('utf8')
+        refresh_token = data['refresh_token'] if six.PY3 else data['refresh_token'].encode('utf8')
+        self.api_client.configuration.access_token = access_token
+        self.api_client.configuration.host = host
+        self.api_client.configuration.refresh_token = refresh_token
 
     def diagram_file_get_diagram(self, name, **kwargs):
         """
@@ -511,3 +563,6 @@ class DiagramFileApi(object):
                                         _preload_content=params.get('_preload_content', True),
                                         _request_timeout=params.get('_request_timeout'),
                                         collection_formats=collection_formats)
+
+      
+

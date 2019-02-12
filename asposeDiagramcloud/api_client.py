@@ -42,6 +42,7 @@ class ApiClient(object):
     Ref: https://github.com/swagger-api/swagger-codegen
     Do not edit the class manually.
 
+    :param configuration: .Configuration object for this client
     :param host: The base path for the server to call.
     :param header_name: a header to pass when making calls to the API.
     :param header_value: a header value to pass when making calls to the API.
@@ -59,16 +60,20 @@ class ApiClient(object):
         'object': object,
     }
 
-    def __init__(self, host=None, header_name=None, header_value=None, cookie=None):
+    def __init__(self, host=None,configuration=None, header_name=None, header_value=None, cookie=None):
         """
         Constructor of the class.
         """
+        if configuration is None:
+                configuration = Configuration()
+        self.configuration = configuration
+
         self.rest_client = RESTClientObject()
         self.default_headers = {}
         if header_name is not None:
             self.default_headers[header_name] = header_value
         if host is None:
-            self.host = Configuration().host
+            self.host =  self.configuration.host
         else:
             self.host = host
         self.cookie = cookie
@@ -99,7 +104,7 @@ class ApiClient(object):
                    _return_http_data_only=None, collection_formats=None, _preload_content=True,
                    _request_timeout=None):
 
-        config = Configuration()
+        config = self.configuration
 
         # header parameters
         header_params = header_params or {}
@@ -505,7 +510,7 @@ class ApiClient(object):
         :param querys: Query parameters tuple list to be updated.
         :param auth_settings: Authentication setting identifiers list.
         """
-        config = Configuration()
+        config = self.configuration
 
         if not auth_settings:
             return
@@ -532,7 +537,7 @@ class ApiClient(object):
         :param response:  RESTResponse.
         :return: file path.
         """
-        config = Configuration()
+        config = self.configuration
 
         fd, path = tempfile.mkstemp(dir=config.temp_folder_path)
         os.close(fd)

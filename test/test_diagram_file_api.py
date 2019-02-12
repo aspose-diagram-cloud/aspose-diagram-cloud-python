@@ -19,19 +19,19 @@ import unittest
 
 ABSPATH = os.path.abspath(os.path.realpath(os.path.dirname(__file__)) + "/..")
 sys.path.append(ABSPATH)
-import asposeDiagramcloud
+import asposediagramcloud
 import test_base
 
-from asposeDiagramcloud.rest import ApiException
-from asposeDiagramcloud.apis.diagram_file_api import DiagramFileApi
-from asposeDiagramcloud.models import FileFormatRequest
+from asposediagramcloud.rest import ApiException
+from asposediagramcloud.apis.diagram_file_api import DiagramFileApi
+from asposediagramcloud.models import FileFormatRequest
 
 class TestDiagramFileApi(unittest.TestCase):
     """ DiagramFileApi unit test stubs """
 
     def setUp(self):
         self.api_client = test_base.GetApiClient()
-        self.api = asposeDiagramcloud.apis.diagram_file_api.DiagramFileApi(self.api_client)
+        self.api = asposediagramcloud.apis.diagram_file_api.DiagramFileApi(self.api_client)
 
     def tearDown(self):
         pass
@@ -45,7 +45,7 @@ class TestDiagramFileApi(unittest.TestCase):
         name ='file_get_1.vdx'       
         folder = "Temp"
         result = self.api.diagram_file_get_diagram(name,format="pdf",folder=folder)
-        print(result);
+        #print(result)
         self.assertIsNotNone(result, 'Error has occurred while get file')
 
     def test_diagram_file_post_save_as(self):
