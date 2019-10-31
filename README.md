@@ -61,9 +61,6 @@ It gives you an ability to:
 * Copy and move files and folders accross separate storages in scope of a single operation
 * Check if certain file, folder or storage exists
 
-# Usage
-Please, add the following [NuGet package](https://www.nuget.org/packages/Aspose.Diagram-Cloud/) to your project.
-
 # Examples
 Please, look at [Examples](EXAMPLES.md) document for basic usage or use the [Examples](Examples) folder for more sophisticated scenarios.
 
