@@ -61,7 +61,7 @@ It gives you an ability to:
 * Copy and move files and folders accross separate storages in scope of a single operation
 * Check if certain file, folder or storage exists
 
-## Installation & Usage
+##Usage
 Please, add the following [pypi](https://pypi.org/project/asposediagramcloud/) to your project.
 ### pip install
 
