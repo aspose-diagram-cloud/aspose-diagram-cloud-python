@@ -61,6 +61,20 @@ It gives you an ability to:
 * Copy and move files and folders accross separate storages in scope of a single operation
 * Check if certain file, folder or storage exists
 
+## Installation & Usage
+Please, add the following [pypi](https://pypi.org/project/asposediagramcloud/) to your project.
+### pip install
+
+```sh
+pip install asposediagramcloud
+```
+(you may need to run `pip` with root permission: `sudo pip install asposediagramcloud`)
+
+Then import the package:
+```python
+import asposediagramcloud 
+```
+
 # Examples
 Please, look at [Examples](EXAMPLES.md) document for basic usage or use the [Examples](Examples) folder for more sophisticated scenarios.
 
