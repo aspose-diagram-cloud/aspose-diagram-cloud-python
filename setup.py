@@ -15,7 +15,7 @@ import sys
 from setuptools import setup, find_packages
 
 NAME = "asposediagramcloud"
-VERSION = "19.10"
+VERSION = "20.3"
 # To install the library, run the following
 #
 # python setup.py install

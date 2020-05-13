@@ -46,3 +46,14 @@ from .html_save_options import HTMLSaveOptions
 from .image_save_options import ImageSaveOptions
 from .pdf_save_options import PdfSaveOptions
 from .svg_save_options import SVGSaveOptions
+from .draw_shape_data import DrawShapeData
+from .page_data import PageData
+from .page_setting import PageSetting
+from .point_f import PointF
+from .shape_data import ShapeData
+from .shape_style_data import ShapeStyleData
+from .text_style_data import TextStyleData
+from .api_response_of_list_of_page_data import ApiResponseOfListOfPageData
+from .ellipse_data import EllipseData
+from .line_data import LineData
+from .polyline_data import PolylineData
