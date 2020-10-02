@@ -1,6 +1,6 @@
 Python Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrate Microsoft Visio® diagram generation, manipulation & conversion features into your own Python applications.
 
-[Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/diagramcloud/Developer+Guide) for all usage scenarios. 
+[Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/diagram/developer-guide/) for all usage scenarios. 
 
 ## Visio Processing Features
 
@@ -22,7 +22,7 @@ Added support to:
 - Add new empty page
 - Get pages info
 
-For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](https://docs.aspose.cloud/diagram/aspose-diagram-cloud-20-3-release-notes/).
 
 ## Read & Write Visio Formats
 
@@ -73,4 +73,4 @@ result = diagramAPI.diagram_file_post_save_as(filename, folder=folder, newfilena
 print(result);
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/diagram/) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
