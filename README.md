@@ -1,8 +1,10 @@
-Python Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrate Microsoft Visio® diagram generation, manipulation & conversion features into your own Python applications.
+![](https://img.shields.io/badge/api-v3.0-lightgrey) ![PyPI](https://img.shields.io/pypi/v/asposediagramcloud) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/asposediagramcloud) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/asposediagramcloud) [![GitHub license](https://img.shields.io/github/license/aspose-diagram-cloud/aspose-Diagram-cloud-python)](https://github.com/aspose-diagram-cloud/aspose-Diagram-cloud-python/blob/master/LICENSE) 
+
+# Python SDK for Visio® Files
 
 [Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/diagram/developer-guide/) for all usage scenarios. 
 
-## Visio Processing Features
+## Visio File Processing in the Cloud
 
 - Retrieve document information of a Visio diagram.
 - Programmatically create a new Microsoft Visio diagram file.
@@ -41,9 +43,9 @@ For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](h
 
 ## Getting Started with Aspose.Diagram Cloud SDK for Python
 
-Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install asposediagramcloud` from the command line to get the get the SDK from PIP. The complete source code is available at [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python).
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/) to get your application information and free quota to use the API. Now execute `pip install asposediagramcloud` from the command line to get the get the SDK from PIP. 
 
-## Use Python Code to Convert Visio VDX to PDF
+## Convert Visio VDX to PDF 
 
 ```python
 import os
@@ -73,4 +75,11 @@ result = diagramAPI.diagram_file_post_save_as(filename, folder=folder, newfilena
 print(result);
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/diagram/) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+## Aspose.Diagram Cloud SDKs in Popular Languages
+
+| .NET | Java | PHP | Python | Ruby | Node.js | Android | Perl | Swift |
+|---|---|---|---|---|---|---|---|---|
+| [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-dotnet) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-java) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-ruby)  | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-node) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-android) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-perl) | [GitHub](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-swift) |
+| [NuGet](https://www.nuget.org/packages/Aspose.Diagram-Cloud/) | [Maven](https://repository.aspose.cloud/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram-cloud) | [Composer](https://packagist.org/packages/aspose/diagram-sdk-php) | [PIP](https://pypi.org/project/asposediagramcloud/) | [GEM](https://rubygems.org/gems/aspose_diagram_cloud)  | [NPM](https://www.npmjs.com/package/asposediagramcloud) | [Maven](https://repository.aspose.cloud/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram-cloud-android) |  [CPAN](https://metacpan.org/release/AsposeDiagramCloud-DiagramApi) | [POD](https://cocoapods.org/pods/AsposeDiagramCloud) |
+
+[Home](https://www.aspose.cloud) | [Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/diagram/) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/)
