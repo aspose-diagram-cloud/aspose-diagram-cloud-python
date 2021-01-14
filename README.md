@@ -1,33 +1,21 @@
-![](https://img.shields.io/badge/api-v3.0-lightgrey) ![PyPI](https://img.shields.io/pypi/v/asposediagramcloud) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/asposediagramcloud) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/asposediagramcloud) [![GitHub license](https://img.shields.io/github/license/aspose-diagram-cloud/aspose-Diagram-cloud-python)](https://github.com/aspose-diagram-cloud/aspose-Diagram-cloud-python/blob/master/LICENSE) 
+![](https://img.shields.io/badge/api-v3.0-lightgrey) ![PyPI](https://img.shields.io/pypi/v/asposediagramcloud) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/asposediagramcloud) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/asposediagramcloud) [![GitHub license](https://img.shields.io/github/license/aspose-diagram-cloud/aspose-Diagram-cloud-python)](https://github.com/aspose-diagram-cloud/aspose-Diagram-cloud-python/blob/master/LICENSE)
 
-# Python SDK for Visio® Files
+# Python Cloud REST API for Visio Processing
 
-[Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS. 
+[Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS.
 
-Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/diagram/developer-guide/) for all usage scenarios. 
+Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/diagram/developer-guide/) for all usage scenarios.
 
-## Visio File Processing in the Cloud
+## Visio Processing Features
 
+- [Convert diagrams](https://docs.aspose.cloud/diagram/convert-diagram-file-to-another-format/) to 20+ different file formats.
 - Retrieve document information of a Visio diagram.
 - Programmatically create a new Microsoft Visio diagram file.
 - Convert Visio flow-charts to other supported formats.
-- Upload your business oriented Visio diagrams to cloud storage.
-- Export Visio files to raster images, fixed-layout and HTML formats.
+- Upload your business-oriented Visio diagrams to cloud storage.
+- Export Visio files to raster images, fixed-layout, and HTML formats.
 
-## New Features in Version 20.3
-
-Added support to draw following objects on a page:
-- Polyline
-- Line
-- Ellipse
-
-Added support to:
-- Set page setting  
-- Add new empty page
-- Get pages info
-
-For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](https://docs.aspose.cloud/diagram/aspose-diagram-cloud-20-3-release-notes/).
-
+Please refer to [Developer's Guide](https://docs.aspose.cloud/diagram/developer-guide/) to see what else you can achieve.
 ## Read & Write Visio Formats
 
 **Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM
@@ -43,11 +31,24 @@ For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](h
 
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
+## New Features in Version 20.3
+
+Added support to draw following objects on a page:
+- Polyline
+- Line
+- Ellipse
+
+Added support to:
+- Set page setting  
+- Add new empty page
+- Get pages info
+
+For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](https://docs.aspose.cloud/diagram/aspose-diagram-cloud-20-3-release-notes/).
 ## Getting Started with Aspose.Diagram Cloud SDK for Python
 
-Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/) to get your application information and free quota to use the API. Now execute `pip install asposediagramcloud` from the command line to get the get the SDK from PIP. 
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/) to get your application information and free quota to use the API. Now execute `pip install asposediagramcloud` from the command line to get the get the SDK from PIP.
 
-## Convert Visio VDX to PDF 
+## Convert Visio VDX to PDF
 
 ```python
 import os
